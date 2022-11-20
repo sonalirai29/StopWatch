@@ -1,0 +1,43 @@
+body{
+	font-family: "Roboto";
+}
+.main-portion {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 600px;
+	width: 100%;
+}
+.stopWatch {
+	border: 1px solid blue;
+	padding: 32px;
+	border-radius:50px;
+}
+.stopWatch p {
+	text-align: center;
+	font-weight: 600;
+	font-size: 30px;
+	margin-bottom: 17px;
+}
+.watchButton button.btn:focus {
+	outline: none;
+	box-shadow: none;
+}
+.watchButton button.btn {
+	font-size: 18px;
+	border: 1px solid #000;
+	border-radius: 17px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 115px;
+	height: 45px;
+}
+.watchButton {
+	display: flex;
+	gap: 23px;
+}
+.watchButton button.btn:hover {
+	background-color: #4f4f9b;
+	color:#fff;
+}
